@@ -1,0 +1,35 @@
+Anotações Curso Nestjs
+
+	⁃	API REST : se comunica com aplicações mobile, web, console, IoT
+
+
+Instalar nest: npm install -g @nestjs/cli
+
+Comando gerar esqueleto de projeto: nest new nestjs-schedule-queue
+
+Desenvolvimento em Typescript, produção em javascript (ao executar o código e ‘traduzido’ para javascript
+
+Decorator: altera o comportamento da estrutura
+
+Utiliza do modelo arquitetural do Angular
+
+Nest g controller test -> comando para gerar um controller 
+
+Nest g service database -> comando para gerar um service
+
+Nest g resource tweets -> comando para gerar recurso de API
+
+Testes com Nest e feito utilizando o Jest
+
+DTO: Data Transfer Object
+
+ Pacotes  e Biblio para fazer integração com banco de dados: Npm install sequelize sequelize-typescript sqlite3 @nestjs/sequelize
+
+Pacote para tipagem do sequelize: npm install @types/sequelize —save-dev
+
+Tasks: tarefas que rodam em background (por exemplo consulta em banco de dados recorrente)
+
+Npm install @nestjs/schedule : pacote para se trabalhar com tasks (agendamento)
+
+Npm install cache-manager -> biblioteca para gerenciar cache
+Npm install @types/cache-manager  
